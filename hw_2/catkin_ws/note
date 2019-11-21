@@ -1,0 +1,37 @@
+Astar_search.h 
+    std::multimap<double, GridNodePtr> openSet
+Astar_search.cpp
+    initGridMap
+    resetGrid
+    resetUsedGrids
+    setObs
+    getVisitedNodes -- need to see
+    gridIndex2coord -- need to see
+    coord2gridIndex -- need 
+
+    AstarGetSucc
+        step 4: finish 
+    getHeu
+        step 1:
+    AstarGraphSearch
+        step 2: some else preparatory works which should be done before while loop
+
+        while(openSet)
+            step 3: remove the node with lowest cost function from open set to closed
+            step 4
+            step 5: for all unexpanded neigbors “m” of node "n"
+            for ()
+               step 6：find a new node
+               step 7: update node 
+    getPath
+        step 8
+
+
+node.h 
+    struct GridNode
+        id ?
+        index
+        coord 
+        gScore
+        fScore
+        cameFrom
