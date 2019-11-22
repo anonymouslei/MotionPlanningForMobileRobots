@@ -86,7 +86,7 @@ OPEN(OPEN_COUNT,1)=1;
         end;     
         node_x = OPEN(local_min_index,2);
         node_y = OPEN(local_min_index,3);
-        gn = 1;
+        gn = OPEN(local_min_index,7);
         predecessors=expand_array(node_x,node_y,gn,xTarget,yTarget,CLOSED,MAX_X,MAX_Y);
         
         CLOSED_COUNT=CLOSED_COUNT+1;
