@@ -1,8 +1,0 @@
-prefix=/home/fjc/leige/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/devel
-
-Name: rviz_plugins
-Description: Description of rviz_plugins
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/fjc/leige/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/devel/lib 
-Requires: 

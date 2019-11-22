@@ -79,7 +79,7 @@ vector<Vector3d> AstarPathFinder::getVisitedNodes()
                     visited_nodes.push_back(GridNodeMap[i][j][k]->coord);
             }
 
-    ROS_WARN("visited_nodes size : %d", visited_nodes.size());
+    //ROS_WARN("visited_nodes size : %d", visited_nodes.size());
     return visited_nodes;
 }
 
@@ -142,6 +142,29 @@ inline void AstarPathFinder::AstarGetSucc(GridNodePtr currentPtr, vector<GridNod
     *
     *
     */
+    Vector3i current_idx = currentPtr -> index;
+    Vector3d current_coord = currentPtr -> coord;
+
+    for(int i = -1; i < 2; i++)
+        for(int j = -1; j < 2; j++)
+            for(int k = -1; k < 2; k++){
+                if(i == k and k == j and i == 0)
+                    continue; // the node itself is not ites successor
+                int s_x = current_idx[0] + i;
+                int s_y = current_idx[1] + j;
+                int s_z = current_idx[2] + k;
+                const Vector3i tmp_idx(s_x,s_y,s_z);
+                if( s_x > GLX_SIZE or s_y > GLY_SIZE or s_z > GLZ_SIZE or s_x < 0 or s_y < 0 or s_z <0)
+                    continue; // the node is out of the map
+                if(isOccupied(tmp_idx))
+                    continue; // the node is occupied
+
+                Vector3d tmp_pt = gridIndex2coord(tmp_idx);
+                GridNodePtr tmpPtr = new GridNode(tmp_idx, tmp_pt);
+                neighborPtrSets.push_back(tmpPtr);
+                edgeCostSets.push_back((current_coord - tmp_pt).norm());
+
+            }
 }
 
 double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
@@ -159,7 +182,14 @@ double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
     *
     */
 
-    return 0;
+    /*
+    Vector3d start_coord =  node1 -> coord;
+    Vector3d goal_coord =  node2 -> coord;
+    double euclidean = (start_coord - goal_coord).norm();
+    */
+
+
+    return (node1 -> coord - node2 -> coord).norm();;
 }
 
 void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
@@ -202,6 +232,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     vector<GridNodePtr> neighborPtrSets;
     vector<double> edgeCostSets;
 
+
     // this is the main loop
     while ( !openSet.empty() ){
         /*
@@ -215,6 +246,12 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
         *
         *
         */
+        auto minPtr = openSet.begin();
+        openSet.erase(minPtr);
+
+        currentPtr = minPtr -> second;
+        currentPtr -> id = -1;
+
 
         // if the current node is the goal 
         if( currentPtr->index == goalIdx ){
@@ -245,6 +282,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
             neighborPtrSets[i]->id = 1 : unexpanded, equal to this node is in open set
             *        
             */
+            neighborPtr = neighborPtrSets[i];
             if(neighborPtr -> id == 0){ //discover a new node, which is not in the closed set and open set
                 /*
                 *
@@ -253,6 +291,12 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 please write your code below
                 *        
                 */
+                
+                neighborPtr -> gScore = currentPtr -> gScore + edgeCostSets[i];
+                neighborPtr -> fScore = neighborPtr -> gScore + getHeu(neighborPtr,endPtr);   
+                neighborPtr -> id = 1; 
+                neighborPtr -> coord = start_pt;
+                openSet.insert( make_pair(neighborPtr -> fScore, neighborPtr) );
                 continue;
             }
             else if(0){ //this node is in open set and need to judge if it needs to update, the "0" should be deleted when you are coding
@@ -263,6 +307,12 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 please write your code below
                 *        
                 */
+
+                auto open_element = openSet.begin();
+                while (open_element -> second != neighborPtr) ++open_element;
+                if((open_element -> first) > neighborPtr -> fScore)
+                    (open_element -> second) -> fScore = neighborPtr -> fScore;
+
                 continue;
             }
             else{//this node is in closed set

@@ -13,6 +13,7 @@ Astar_search.cpp
         step 4: finish 
     getHeu
         step 1:
+	这里可以再改进一下，使用truly theoretical optimal solution,加入tie breaker. 应该在哪里加呢？
     AstarGraphSearch
         step 2: some else preparatory works which should be done before while loop
 
@@ -29,7 +30,7 @@ Astar_search.cpp
 
 node.h 
     struct GridNode
-        id ?
+        id 1->open set -1->closed set 0 -> not open and close
         index
         coord 
         gScore
