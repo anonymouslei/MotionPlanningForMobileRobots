@@ -296,6 +296,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 neighborPtr -> fScore = neighborPtr -> gScore + getHeu(neighborPtr,endPtr);   
                 neighborPtr -> id = 1; 
                 neighborPtr -> coord = start_pt;
+                neighborPtr -> cameFrom = currentPtr;
                 openSet.insert( make_pair(neighborPtr -> fScore, neighborPtr) );
                 continue;
             }
@@ -311,8 +312,10 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 auto open_element = openSet.begin();
                 while (open_element -> second != neighborPtr) ++open_element;
                 if((open_element -> first) > neighborPtr -> fScore)
+                {
                     (open_element -> second) -> fScore = neighborPtr -> fScore;
-
+                    (open_element -> second) -> cameFrom = currentPtr;
+                }
                 continue;
             }
             else{//this node is in closed set
@@ -343,7 +346,12 @@ vector<Vector3d> AstarPathFinder::getPath()
     please write your code below
     *      
     */
-
+    auto tmpPtr = terminatePtr;
+    while((tmpPtr -> cameFrom) != NULL)
+    {
+        gridPath.push_back(tmpPtr);
+        tmpPtr = tmpPtr->cameFrom;
+    }
     for (auto ptr: gridPath)
         path.push_back(ptr->coord);
         
