@@ -162,9 +162,12 @@ inline void AstarPathFinder::AstarGetSucc(GridNodePtr currentPtr, vector<GridNod
                 Vector3d tmp_pt = gridIndex2coord(tmp_idx);
                 GridNodePtr tmpPtr = new GridNode(tmp_idx, tmp_pt);
                 neighborPtrSets.push_back(tmpPtr);
+                ROS_DEBUG_STREAM("new neighborPtrSets " << tmpPtr -> coord << std::endl);
                 edgeCostSets.push_back((current_coord - tmp_pt).norm());
 
             }
+    ROS_DEBUG_STREAM("neighborPtrSets size " << neighborPtrSets.size() << std::endl);
+    ROS_DEBUG_STREAM("edgeCostSets size " << edgeCostSets.size() << std::endl);
 }
 
 double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
@@ -222,6 +225,11 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     startPtr -> id = 1; 
     startPtr -> coord = start_pt;
     openSet.insert( make_pair(startPtr -> fScore, startPtr) );
+    ROS_DEBUG_STREAM("start point " << startPtr ->coord << std::endl);
+    ROS_DEBUG_STREAM("end point " << endPtr ->coord << std::endl);
+    // ROS_WARN("start point", startPtr );
+    // ROS_WARN("end point", endPtr );
+    // ROS_WARN("step 1");
     /*
     *
     STEP 2 :  some else preparatory works which should be done before while loop
@@ -231,7 +239,8 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     */
     vector<GridNodePtr> neighborPtrSets;
     vector<double> edgeCostSets;
-
+    ROS_WARN("step 2");
+    int test_i = 0;
 
     // this is the main loop
     while ( !openSet.empty() ){
@@ -246,12 +255,14 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
         *
         *
         */
+        ROS_DEBUG_STREAM("open set loop: " << test_i << std::endl);
+        test_i ++;
+        ROS_DEBUG_STREAM("open set size: " << openSet.size() << std::endl);
         auto minPtr = openSet.begin();
         openSet.erase(minPtr);
 
         currentPtr = minPtr -> second;
         currentPtr -> id = -1;
-
 
         // if the current node is the goal 
         if( currentPtr->index == goalIdx ){
@@ -291,7 +302,6 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 please write your code below
                 *        
                 */
-                
                 neighborPtr -> gScore = currentPtr -> gScore + edgeCostSets[i];
                 neighborPtr -> fScore = neighborPtr -> gScore + getHeu(neighborPtr,endPtr);   
                 neighborPtr -> id = 1; 
@@ -308,7 +318,6 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 please write your code below
                 *        
                 */
-
                 auto open_element = openSet.begin();
                 while (open_element -> second != neighborPtr) ++open_element;
                 if((open_element -> first) > neighborPtr -> fScore)
@@ -326,7 +335,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
                 */
                 continue;
             }
-        }      
+        }     
     }
     //if search fails
     ros::Time time_2 = ros::Time::now();
@@ -346,6 +355,7 @@ vector<Vector3d> AstarPathFinder::getPath()
     please write your code below
     *      
     */
+    ROS_WARN("step 8");
     auto tmpPtr = terminatePtr;
     while((tmpPtr -> cameFrom) != NULL)
     {

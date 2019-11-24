@@ -76,6 +76,15 @@
         "iomanip": "cpp",
         "optional": "cpp",
         "primitiveset": "cpp",
-        "valarray": "cpp"
+        "valarray": "cpp",
+        "csignal": "cpp",
+        "cstdarg": "cpp",
+        "chrono": "cpp",
+        "ratio": "cpp",
+        "thread": "cpp",
+        "cfenv": "cpp",
+        "cinttypes": "cpp",
+        "typeindex": "cpp",
+        "set": "cpp"
     }
 }
