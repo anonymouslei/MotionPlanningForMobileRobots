@@ -229,7 +229,6 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     ROS_DEBUG_STREAM("end point " << endPtr ->coord << std::endl);
     // ROS_WARN("start point", startPtr );
     // ROS_WARN("end point", endPtr );
-    // ROS_WARN("step 1");
     /*
     *
     STEP 2 :  some else preparatory works which should be done before while loop
