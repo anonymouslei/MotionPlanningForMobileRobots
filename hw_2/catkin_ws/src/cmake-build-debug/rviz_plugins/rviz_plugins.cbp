@@ -11,10 +11,10 @@
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rviz_plugins">
@@ -52,10 +52,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 rviz_plugins"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 rviz_plugins"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rviz_plugins/fast">
@@ -93,270 +93,270 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 rviz_plugins/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 rviz_plugins/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="map_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="map_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="map_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="map_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="sensor_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 sensor_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="_catkin_empty_exported_target">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 _catkin_empty_exported_target"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf2_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf2_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="map_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 map_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tf_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 tf_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 actionlib_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/rviz_plugins/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>

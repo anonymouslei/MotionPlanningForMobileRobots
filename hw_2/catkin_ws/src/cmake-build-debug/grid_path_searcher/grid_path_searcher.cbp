@@ -11,10 +11,10 @@
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="random_complex">
@@ -75,10 +75,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 random_complex"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 random_complex"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="random_complex/fast">
@@ -139,360 +139,360 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 random_complex/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 random_complex/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosgraph_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosgraph_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosgraph_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosgraph_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="roscpp_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rosgraph_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 rosgraph_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="roscpp_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="roscpp_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="roscpp_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="roscpp_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 roscpp_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nav_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 nav_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="std_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 std_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visualization_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visualization_msgs_generate_messages_nodejs">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_nodejs"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_nodejs"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="geometry_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 geometry_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visualization_msgs_generate_messages_eus">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_eus"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_eus"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_lisp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_lisp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="actionlib_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 actionlib_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visualization_msgs_generate_messages_cpp">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_cpp"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="visualization_msgs_generate_messages_py">
 				<Option working_dir="/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_py"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 visualization_msgs_generate_messages_py"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo_node">
@@ -553,10 +553,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 demo_node"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 demo_node"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="demo_node/fast">
@@ -617,10 +617,10 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 demo_node/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 demo_node/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/src/cmake-build-debug/grid_path_searcher/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
