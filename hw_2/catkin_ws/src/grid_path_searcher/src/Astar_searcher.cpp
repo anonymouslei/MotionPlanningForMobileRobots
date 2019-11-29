@@ -162,14 +162,10 @@ inline void AstarPathFinder::AstarGetSucc(GridNodePtr currentPtr, vector<GridNod
 
                 Vector3d tmp_pt = gridIndex2coord(tmp_idx);
                 neighborPtrSets.push_back(GridNodeMap[s_x][s_y][s_z]);
-                //ROS_ERROR_STREAM("s_x " << s_x  <<"s_y " << s_y <<"s_z " << s_z  << std::endl);
-                //ROS_ERROR_STREAM("new neighborPtrSets " << GridNodeMap[s_x][s_y][s_z] -> index << std::endl);
-                //double test = (current_coord - tmp_pt).norm();
+
                 edgeCostSets.push_back((current_coord - tmp_pt).norm());
 
             }
-    //ROS_DEBUG_STREAM("neighborPtrSets size " << neighborPtrSets.size() << std::endl);
-    //ROS_DEBUG_STREAM("edgeCostSets size " << edgeCostSets.size() << std::endl);
 }
 
 double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
@@ -187,16 +183,11 @@ double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
     *
     */
 
-    /*
-    Vector3d start_coord =  node1 -> coord;
-    Vector3d goal_coord =  node2 -> coord;
-    double euclidean = (start_coord - goal_coord).norm();
-    ROS_ERROR_STREAM("euclidean " << euclidean << "start_coord " << start_coord << "goal_coord " << goal_coord << std::endl);
-    */
 
+    // static_cast <double> (rand()) / static_cast <double> (RAND_MAX) / 1000 -- tie_breaker
+    double euclidean = (node1 -> coord - node2 -> coord).norm() + static_cast <double> (rand()) / static_cast <double> (RAND_MAX) / 1000;
 
-
-    return (node1 -> coord - node2 -> coord).norm();
+    return euclidean;
 }
 
 void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)

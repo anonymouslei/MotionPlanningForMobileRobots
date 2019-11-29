@@ -1,0 +1,8 @@
+prefix=/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/install
+
+Name: grid_path_searcher
+Description: Description of grid_path_searcher
+Version: 0.0.1
+Cflags: -I/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/install/include
+Libs: -L/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_2/catkin_ws/install/lib 
+Requires: 
