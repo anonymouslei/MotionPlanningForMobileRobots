@@ -128,6 +128,7 @@ public:
         // example, so we downcast state into the specific type.
         const ob::RealVectorStateSpace::StateType* state3D =
             state->as<ob::RealVectorStateSpace::StateType>();
+
         /**
         *
         *
@@ -135,7 +136,9 @@ public:
         *
         *
         */
-
+        double x = state3D->values[0];
+        double y = state3D->values[1];
+        double z = state3D->values[2];
         return _RRTstar_preparatory->isObsFree(x, y, z);
     }
 };
@@ -179,7 +182,7 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     si->setup();
 
     // Set our robot's starting state
-    ob::ScopedState<> start(space);
+    ob::ScopedState<ob::RealVectorStateSpace> start(space);
     /**
     *
     *
@@ -187,9 +190,13 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     *
     *
     */
+    start.values[0] = start_pt[0];
+    start.values[1] = start_pt[1];
+    start.values[2] = start_pt[2];
+
 
     // Set our robot's goal state
-    ob::ScopedState<> goal(space);
+    ob::ScopedState<ob::RealVectorStateSpace> goal(space);
     /**
     *
     *
@@ -197,6 +204,9 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     *
     *
     */
+    goal.values[0] = target_pt[0];
+    goal.values[1] = target_pt[1];
+    goal.values[2] = target_pt[2];
 
     // Create a problem instance
 
@@ -208,7 +218,7 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     *
     *
     */
-
+    ob::ProblemDefinitionPtr pdef;
     // Set the start and goal states
     pdef->setStartAndGoalStates(start, goal);
 
@@ -220,7 +230,8 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     getPathLengthObjective() and getThresholdPathLengthObj()
     *
     *
-    */  
+    */
+    pdef->setOptimizationObjective(getPathLengthObjective(si));
 
     // Construct our optimizing planner using the RRTstar algorithm.
     /**
@@ -230,11 +241,14 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     please define varible as optimizingPlanner
     *
     *
-    */ 
+    */
+    //ob::ScopedState<ob::RealVectorStateSpace> goal(space);
+    og::RRTstar *optimizingPlanner = new
+    og::RRTstar optimizingPlanner(si);
 
     // Set the problem instance for our planner to solve
-    optimizingPlanner->setProblemDefinition(pdef);
-    optimizingPlanner->setup();
+    optimizingPlanner.setProblemDefinition(pdef);
+    optimizingPlanner.setup();
 
     // attempt to solve the planning problem within one second of
     // planning time
@@ -257,7 +271,10 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
             STEP 7: Trandform the found path from path to path_points for rviz display
             *
             *
-            */ 
+            */
+            path_points[path_idx][0] = state->values[0];
+            path_points[path_idx][1] = state->values[1];
+            path_points[path_idx][2] = state->values[2];
         }
         visRRTstarPath(path_points);       
     }
