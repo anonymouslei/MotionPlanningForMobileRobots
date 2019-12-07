@@ -242,10 +242,7 @@ void pathFinding(const Vector3d start_pt, const Vector3d target_pt)
     *
     *
     */
-    //ob::ScopedState<ob::RealVectorStateSpace> goal(space);
-    og::RRTstar *optimizingPlanner = new
-    og::RRTstar optimizingPlanner(si);
-
+    ob::PlannerPtr optimizingPlanner(new og::RRTstar(si));
     // Set the problem instance for our planner to solve
     optimizingPlanner.setProblemDefinition(pdef);
     optimizingPlanner.setup();
