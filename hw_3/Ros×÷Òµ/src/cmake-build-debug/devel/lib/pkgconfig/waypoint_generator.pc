@@ -1,8 +1,0 @@
-prefix=/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_3/Ros×÷Òµ/src/cmake-build-debug/devel
-
-Name: waypoint_generator
-Description: Description of waypoint_generator
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_3/Ros×÷Òµ/src/cmake-build-debug/devel/lib 
-Requires: 

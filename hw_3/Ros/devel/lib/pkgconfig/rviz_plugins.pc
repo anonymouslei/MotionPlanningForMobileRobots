@@ -1,0 +1,8 @@
+prefix=/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_3/Ros/devel
+
+Name: rviz_plugins
+Description: Description of rviz_plugins
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/leige/LeiGe/code/MotionPlanningForMobileRobots/hw_3/Ros/devel/lib 
+Requires: 
