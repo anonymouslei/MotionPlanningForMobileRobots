@@ -1,3 +1,7 @@
+/*
+ * reference: https://zerowidth.com/2013/a-visual-explanation-of-jump-point-search.html
+ * reference: https://zhuanlan.zhihu.com/p/25093275
+ * */
 #include "JPS_searcher.h"
 
 using namespace std;
@@ -240,13 +244,19 @@ void JPSPathFinder::JPSGraphSearch(Eigen::Vector3d start_pt, Eigen::Vector3d end
                 please write your code below
                 *        
                 */
+                neighborPtr -> gScore = currentPtr -> gScore + edgeCostSets[i];
+                neighborPtr -> fScore = neighborPtr -> gScore + getHeu(neighborPtr,endPtr);
+                neighborPtr -> id = 1;
+                neighborPtr -> cameFrom = currentPtr;
+                openSet.insert( make_pair(neighborPtr -> fScore, neighborPtr) );
                 continue;
             }
             else if(tentative_gScore <= neighborPtr-> gScore){ //in open set and need update
                 /*
                 *
                 *
-                STEP 7:  As for a node in open set, update it , maintain the openset ,and then put neighbor in open set and record it
+                STEP 7:  As for a node in open set, update it , maintain the openset ,and
+                 then put neighbor in open set and record it
                 please write your code below
                 *        
                 */

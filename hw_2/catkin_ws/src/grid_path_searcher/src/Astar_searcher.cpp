@@ -185,7 +185,9 @@ double AstarPathFinder::getHeu(GridNodePtr node1, GridNodePtr node2)
 
 
     // static_cast <double> (rand()) / static_cast <double> (RAND_MAX) / 1000 -- tie_breaker
-    double euclidean = (node1 -> coord - node2 -> coord).norm() + static_cast <double> (rand()) / static_cast <double> (RAND_MAX) / 1000;
+    double euclidean = (node1 -> coord - node2 -> coord).norm() +
+            static_cast <double> (rand()) / static_cast <double> (RAND_MAX) / 1000; // mit tie_breaker
+    //double euclidean = (node1 -> coord - node2 -> coord).norm(); // no tie_breaker
 
     return euclidean;
 }
@@ -220,12 +222,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     startPtr -> id = 1; 
     startPtr -> coord = start_pt;
     openSet.insert( make_pair(startPtr -> fScore, startPtr) );
-    //ROS_ERROR_STREAM("AstarGraphSearch" << std::endl);
-    //ROS_ERROR_STREAM("start point coord " << startPtr ->coord <<"start point gScore " << startPtr ->gScore
-    //<<"start point fScore " << startPtr ->fScore << std::endl);
-    //ROS_ERROR_STREAM("end point " << endPtr ->coord << std::endl);
-    // ROS_WARN("start point", startPtr );
-    // ROS_WARN("end point", endPtr );
+
     /*
     *
     STEP 2 :  some else preparatory works which should be done before while loop
@@ -236,7 +233,7 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
     vector<GridNodePtr> neighborPtrSets;
     vector<double> edgeCostSets;
 
-    int test_i = 0;
+    //int test_i = 0;
 
     // this is the main loop
     while ( !openSet.empty() ){
@@ -251,11 +248,9 @@ void AstarPathFinder::AstarGraphSearch(Vector3d start_pt, Vector3d end_pt)
         *
         *
         */
-        test_i ++;
         currentPtr = openSet.begin()-> second;
         openSet.erase(openSet.begin());
 
-        //currentPtr = minPtr -> second;
         currentPtr -> id = -1;
         // if the current node is the goal
         if( currentPtr->index == goalIdx ){
