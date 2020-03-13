@@ -1,48 +1,41 @@
 #ifndef _HW_TOOL_H_
 #define _HW_TOOL_H_
 
+#include <iostream>
+#include <ros/ros.h>
+#include <ros/console.h>
+#include <Eigen/Eigen>
 #include "backward.hpp"
 #include "math.h"
-#include <Eigen/Eigen>
 #include <State.h>
-#include <iostream>
-#include <ros/console.h>
-#include <ros/ros.h>
 
-class Homeworktool {
-  private:
-  protected:
-    uint8_t *data;
+class Homeworktool
+{	
+	private:
 
-    int GLX_SIZE, GLY_SIZE, GLZ_SIZE;
-    int GLXYZ_SIZE, GLYZ_SIZE;
+	protected:
+		uint8_t * data;
 
-    double resolution, inv_resolution;
-    double gl_xl, gl_yl, gl_zl;
-    double gl_xu, gl_yu, gl_zu;
+		int GLX_SIZE, GLY_SIZE, GLZ_SIZE;
+		int GLXYZ_SIZE, GLYZ_SIZE;
 
-    Eigen::Vector3d gridIndex2coord(const Eigen::Vector3i &index);
-    Eigen::Vector3i coord2gridIndex(const Eigen::Vector3d &pt);
+		double resolution, inv_resolution;
+		double gl_xl, gl_yl, gl_zl;
+		double gl_xu, gl_yu, gl_zu;	
 
-  public:
-    Homeworktool(){};
-    ~Homeworktool(){};
+		Eigen::Vector3d gridIndex2coord(const Eigen::Vector3i & index);
+		Eigen::Vector3i coord2gridIndex(const Eigen::Vector3d & pt);
 
-    void initGridMap(double _resolution, Eigen::Vector3d global_xyz_l,
-                     Eigen::Vector3d global_xyz_u, int max_x_id, int max_y_id,
-                     int max_z_id);
-    void setObs(const double coord_x, const double coord_y,
-                const double coord_z);
-    bool isObsFree(const double coord_x, const double coord_y,
-                   const double coord_z);
+	public:
+		Homeworktool(){};
+		~Homeworktool(){};
 
-    Eigen::Vector3d coordRounding(const Eigen::Vector3d &coord);
-    double OptimalBVP(Eigen::Vector3d _start_position,
-                      Eigen::Vector3d _start_velocity,
-                      Eigen::Vector3d _target_position);
-
-    double calJ(double T, const Eigen::Vector3d &dp, const Eigen::Vector3d &dv,
-                const Eigen::Vector3d &v0);
+		void initGridMap(double _resolution, Eigen::Vector3d global_xyz_l, Eigen::Vector3d global_xyz_u, int max_x_id, int max_y_id, int max_z_id);
+		void setObs(const double coord_x, const double coord_y, const double coord_z);
+		bool isObsFree(const double coord_x, const double coord_y, const double coord_z);
+				
+		Eigen::Vector3d coordRounding(const Eigen::Vector3d & coord);
+		double OptimalBVP(Eigen::Vector3d _start_position,Eigen::Vector3d _start_velocity,Eigen::Vector3d _target_position);
 };
 
 #endif
