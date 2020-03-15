@@ -37,8 +37,8 @@ for i=0:n_seg-1
     %#####################################################
     % STEP 4: get the coefficients of i-th segment of both x-axis
     % and y-axis
-    Pxi = [];
-    Pyi = [];
+    Pxi = poly_coef_x(i * n_poly_perseg + 1 : (i+1) * n_poly_perseg);
+    Pyi = poly_coef_y(i * n_poly_perseg + 1 : (i+1) * n_poly_perseg);
     for t=0:tstep:ts(i+1)
         X_n(k)  = polyval(Pxi,t);
         Y_n(k)  = polyval(Pyi,t);
@@ -69,11 +69,12 @@ function poly_coef = MinimumSnapCloseformSolver(waypoints, ts, n_seg, n_order)
     R_fp = R_cell{1, 2};
     %#####################################################
     % STEP 3: compute dF
-    dF = [];
-    %
-    %
-    %
-    %
+    n_fix = 8 + n_seg - 1;
+    dF = zeros(n_fix, 1);
+    dF(1) = waypoints(1);
+    for i = 5 : n_fix - 3
+        dF(i,1) = waypoints(i - 3);
+    end
 
     dP = -inv(R_pp) * R_fp' * dF;
     poly_coef = inv(M) * Ct * [dF;dP];

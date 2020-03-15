@@ -1,40 +1,32 @@
 function Ct = getCt(n_seg, n_order)
     %#####################################################
     % STEP 2.1: finish the expression of Ct
-    row = 8*n_seg; 
-    col = 4*(n_seg+1);
-    Ct = zeros(row,col);
-    % fixed derivatives
-    % first point correspond
-    for i = 1:4
-        Ct(i,i) = 1;
+        row = 4 * 2 * n_seg;
+    col = 4 * (n_seg + 1);
+    Ct = zeros(row, col);
+    n_fix = 4 + 4 + n_seg - 1;
+    
+    % start constraint
+    Ct(1:4, 1:4) = eye(4);
+    idx_fix = 5;
+    idx_free = n_fix + 1;
+    
+    % intermediate constraints
+    for i = 1 : n_seg - 1
+        start = 4 + 8 * (i - 1);
+        for j = start + 1 : start + 4
+            if mod(j, 4) == 1
+                Ct(j, idx_fix) = 1;
+                Ct(j + 4, idx_fix) = 1;
+                idx_fix = idx_fix + 1;
+            else
+                Ct(j, idx_free) = 1;
+                Ct(j + 4, idx_free) = 1;
+                idx_free = idx_free + 1;
+            end
+        end
     end
-    % end point correspond
-    for i = 1:4 
-        Ct(row-4+i,4+i) = 1;
-    end
-    % correspond the position at t=0 of the middle point
-    for i = 1:n_seg-1
-        Ct(i*8+1, 8+i) = 1;
-        % previous position at t = T equals next position at t = 0
-        Ct(i*8-3, 8+i) = 1;
-    end
-
-    % free derivatives
-    % correspond the v,a,j at t=0 of the middle point
-    for i = 1:n_seg-1
-        % v, there are 4+4+n_segment numbers in front of free derivatives 
-        Ct(i*8+2, 8+n_seg+3*i) = 1;
-        % previous v at t = T equals next velocity at t = 0
-        Ct(i*8-2, 8+n_seg+3*i) = 1;
-        % a
-        Ct(i*8+3, 8+n_seg+3*i+1) = 1;
-        % previous a at t = T equals next acceleration at t = 0
-        Ct(i*8-2, 8+n_seg+3*i+1) = 1;
-        % j
-        Ct(i*8+4, 8+n_seg+3*i+2) = 1;
-        % previous j at t = T equals next jerk at t = 0
-        Ct(i*8-2, 8+n_seg+3*i+2) = 1;
-   end
-
+    
+    %terminal constraint
+    Ct(row - 3 : row , n_fix - 3 : n_fix) = eye(4);
 end
